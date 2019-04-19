@@ -115,6 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="libraries.h" />
+    <ClInclude Include="local_optimal_scheme.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="local_optimal_scheme.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
