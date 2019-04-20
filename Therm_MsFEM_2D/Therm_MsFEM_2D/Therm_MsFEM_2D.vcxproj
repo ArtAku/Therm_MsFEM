@@ -115,11 +115,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="boundaryData.h" />
+    <ClInclude Include="finite_elements_method_intarface.h" />
     <ClInclude Include="libraries.h" />
     <ClInclude Include="local_optimal_scheme.h" />
+    <ClInclude Include="one_dimensional_task.h" />
+    <ClInclude Include="therm_msfem.h" />
+    <ClInclude Include="two_dimensional_task.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="local_optimal_scheme.cpp" />
+    <ClCompile Include="one_dimensional_task.cpp" />
+    <ClCompile Include="therm_msfem.cpp" />
+    <ClCompile Include="two_dimensional_task.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
